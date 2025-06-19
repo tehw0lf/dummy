@@ -1,0 +1,27 @@
+{
+  "name": "@tehw0lf/dummytest",
+  "version": "0.0.1",
+  "description": "dummy lib",
+  "main": "index.scss",
+  "scripts": {
+    "build": "sass index.scss dist/dummytest/index.css --style=compressed && npm pkg delete devDependencies && cp package.json dist/dummytest/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tehw0lf/dummytest.git"
+  },
+  "keywords": [
+    "scss",
+    "layout",
+    "minimal"
+  ],
+  "author": "tehw0lf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tehw0lf/dummytest/issues"
+  },
+  "homepage": "https://github.com/tehw0lf/dummytest#readme",
+  "devDependencies": {
+    "sass": "^1.85.0"
+  }
+}
